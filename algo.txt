@@ -1,0 +1,34 @@
+At this checkpoint, you are asked to write an algorithm that read a sentence, which ends with a point, character by character, and to determine:
+string = "At this checkpoint, you are asked to write an algorithm that read a sentence, which ends with a point, character by character, and to determine." ;
+caracter-count = 0;
+words-count = 1;
+voyel-count = 0
+
+
+for i in range(0, len(string))
+{
+    if(string[i] != ' ')
+    {
+        caracter-count = caracter-count + 1;  
+    }
+    if(string[i] == ' ')
+    {
+        words-count = words-count + 1;  
+    }
+    
+
+}
+        print("Total number of characters in a string: " + str(caracter-count));  
+
+if(string[i] == 'a','e','u','i','o' )
+{
+          voyel-count = voyel-count + 1;
+} 
+
+
+
+
+ in ['a','e','u','i','o']
+
+
+
